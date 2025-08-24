@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Post section */
+.detail-post-container{
+   padding: 0 20px;
+   padding-top: 52px;
+   margin: 0 140.4px;
+}
+
+.detail-post{
+    background-color: white;;
+    padding-top: 69.42px;
+    padding-bottom: 69.42px;
+    padding-left: 86.7px;
+    padding-right: 86.7px;
+}
+
+.detail-post-image{
+    margin-bottom: 26px;
+    max-width: 966px;
+    width: 100%;
+    max-height: 596px;
+}
+
+.detail-post-image img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.detail-post-heading{
+    margin-bottom: 10px; 
+}
+
+.detail-post-heading h1{
+    font-size: 30px;
+    font-family: Newsreader, serif;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: black;
+}
+
+.leave-comment-line{
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 26px;
+}
+
+.detail-comment-line{
+    text-decoration: none;
+    color: #b08967; 
+}
+
+.detail-comment-line:hover{
+    text-decoration: none;
+    color:#b08967;
+}
+
+.detail-page-paragraph{
+    max-width: 1200px;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    color: #000000A6;
+}
+.detail-page-paragraph p{
+    line-height: 24px;
+}
+
+.post-content{
+    margin-bottom: 20.8px;
+    line-height: 24px;
+    text-align:  start;
+}
+
+.post-description{
+    margin:0;
+    line-height: 24px;
+    text-align: start;
+}
+
+/* previous post link */
+.post-links{
+    background-color: white;
+    padding-top: 26px;
+    display: flex;
+    gap: 62vw;
+}
+
+.post-links button{
+    border: none;
+    width: 120px;
+}
+
+.previous-post-button{
+    color:#b08967;
+    text-align: start;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    background-color: white;
+}
+
+.next-post-button{
+    color:#b08967;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    background-color: white;
+}
+
+/* comment section */
+.comment-section{
+    background-color: white;
+    padding: 52px 86.7px;
+    margin-top: 23px;
+}
+
+.comment-section h2{
+    font-size: 21px;
+    font-family: Newsreader, serif;
+    text-align: start;
+}
+
+.comment-section p{
+    margin-bottom: 19.5px;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    color: #000000A6;
+    text-align: start;
+}
+
+.comment-section textarea{
+    margin-bottom: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 10px;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    max-width: 1026px;
+    width: 100%;
+    height: 214px;
+    resize:none;
+}
+
+textarea:focus{
+    outline: none;
+    font-size: 13px;
+    color: #000000A6;
+    border: 1px dotted ;
+}
+
+/* Name, Email, Website part */
+.comment-details{
+    margin-top: 19.5px;
+    display: flex;
+    gap: 40px;
+}
+
+.input-field{
+    margin-bottom: 20px;
+}
+
+.input-field input {
+    width: 100%;                 
+    height: 40px;                 
+    padding: 9.75px;   
+    margin-bottom: 10px;       
+    box-sizing: border-box;      
+    border: 1px solid rgb(221, 221, 221);
+    font-size: 13px;
+}
+
+.input-field {
+    flex: 1;                     
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus{
+    outline: none;
+    border: 1px dotted ;
+}
+.checkbox-part label{
+    margin: 0;
+}
+.checkbox-part{
+    margin-bottom: 22.75px;
+}
+
+.checkbox-part label{
+    padding-left: 12px;
+    font-size: 13px;
+    font-family: Poppins;
+    color: #808080;
+}
+
+.post-comment-button button{
+    max-width: 100%;
+    min-height: 44px;
+    padding: 10px 15px;
+    background-color: #b08967;
+    color: white;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Posted comments Section*/
+.posted-comments h3{
+    padding-top: 28.8px;
+    padding-left: 95.76px;
+    padding-right: 95.76px;
+}
+
+.section{
+    padding: 52px 86.710px;
+    margin-bottom: 26px;
+    font-family: Poppins, sans-serif;
+
+}
+
+.name-profile-flex-container{
+    display: flex;
+}
+
+.image-container{
+    height: 50px;
+    width: 50px;
+}
+
+.image-container img{
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.name-date{
+    padding-left: 37.40px;
+    padding-right: 37.40px;
+    padding-bottom: 17.6px;
+    margin-bottom: 5.5px;
+    margin-left: -20px;
+    margin-right: -20px;
+    font-size: 11px;
+    color:#b08967;
+    font-weight: 700;
+}
+
+#comment-text{
+    font-size: 13px;
+    margin-bottom: 22.75px;
+    text-align: start;
+}
+
+#reply{
+    display: block;
+    text-align: end;
+    margin: 0;
+    font-size: 13px;
+    color:#b08967;
+}
+/* Responsiveness */
+@media (max-width: 1250px) {
+    .detail-post-container{
+        padding: 0 20px;
+        margin: 0;
+        overflow: hidden;
+    }
+    .detail-post{
+        padding: 43px 31.2px;
+    }
+
+    .comment-section{
+        padding: 39px 30px;
+    }
+    .post-links{
+        gap: 500px;
+    }
+    .detail-post-container{
+        padding-top: 52px;
+    }
+}
+@media screen and (max-width: 800px){
+    .detail-post{
+        padding: 18px 25px;
+    }
+    .detail-post-container{
+        padding-top: 18px;
+    }
+    .detail-post-heading h1{
+        font-size: 27px;
+    }
+    .section{
+        padding: 18px 25px;
+    }
+    .posted-comments  h3{
+        padding: 29px 30px;
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,140 @@
+.food-container{
+    padding: 0 20px;
+    margin: 0 260.4px;
+}
+
+.food-heading{
+    padding: 39px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 32.5px;
+}
+
+.food-heading h1{
+    font-size: 40px;
+    min-height: 56px;
+    font-family: Newsreader, serif;
+    margin-bottom: 4px;
+    color: #b08967;
+}
+
+/* FOOD POST */
+.food-post-container{
+    margin-bottom: 33px;
+}
+#food-container-flex{
+    margin: 52px 0;
+}
+
+.food-post{
+    padding-bottom: 26px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.food-post-image{
+    margin-bottom: 19.5px;
+    width: 960px;
+}
+
+.food-post-image img{
+    max-width: 100%;
+    max-height: 592px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.food-post h2{
+    font-size: 30px;
+    font-family: Newsreader, serif;
+    color: #000000A6;
+    text-align: start;
+}
+
+.leave-comment-line-{
+    /* height: 19px; */
+    margin-bottom: 15px;
+}
+
+.route-link-comment-line{
+    text-decoration: none;
+    color: #b08967;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+}
+
+.route-link-comment-line:hover{
+    text-decoration: none;
+    color:#b98067;
+}
+
+.food-description{
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    opacity: 0.8;
+    display: block;
+    word-wrap: break-word;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.food-description p{
+    text-align: start;
+    margin: 0;
+    line-height: 24.4px;
+}
+.food-detail-page-link{
+    margin-top: 20px;
+    margin-bottom: 11px;
+}
+
+.food-detail-page-link p{
+    font-size: 13px;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    color:#b08967;
+    text-align: start;
+}
+.read-more-link h2{
+    margin-bottom: 3.5px;
+}
+.read-more-link:hover{
+    text-decoration: none;
+}
+
+/* Responsiveness of page*/
+@media screen and (max-width: 1200px ){
+   .food-container{
+     padding: 0 30px;
+     margin: 0;
+   }
+   #food-container-flex{
+     margin: 17.784px 0;
+   }
+   .food-heading{
+        padding: 35.568px;
+        margin-bottom: 29.64px;
+   }
+   .food-post{
+      padding-bottom: 23.712px;
+   }
+   .food-post-image{
+      max-width: 100%;
+   }
+   .food-description{
+      font-size: 11.867px;
+   }
+   .food-post h2{
+      font-size:  27.63px;
+   }
+   .leave-comment-line{
+       margin-bottom: 0;
+   }
+   .route-link-comment-line{
+       font-size: 11.867px;
+   }
+   .read-more-link p{
+       font-size: 11.867px;
+   }
+}

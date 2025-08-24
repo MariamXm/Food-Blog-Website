@@ -1,0 +1,266 @@
+.about-page{
+    background-color: #f2f5f7;
+}
+.about-me-container{
+    background-image: url(https://websitedemos.net/food-drinks-blog-04/wp-content/uploads/sites/896/2021/09/about-02.jpg);
+    background-size:cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 549px;
+}
+.about-page-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+ /* First Part */
+.about-me-{
+    padding: 193px 0;
+    margin: 0 190.4px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.about-me- span{
+    font-size: 13px;
+    font-family: Newsreader, serif;
+    letter-spacing: 2px;
+    line-height: 16px;
+}
+.about-me- h1{
+    font-size: 40px;
+    font-family: Newsreader, serif;
+    line-height: 56px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+/* Second Part (Paragraphs) */
+.about-me-paragraphs-flex-container{
+    margin: 0 190.4px;
+    padding-top: 85px;
+    padding-bottom: 200px;
+    display: flex;
+    gap: 20px;
+    min-height: 391px;
+}
+
+.paragraph-left-container{
+    padding-right: 100px;
+    max-width: 561px;
+    max-height: 391px;
+}
+
+.paragraph-left-container h3{
+    font-size: 24px;
+    font-family: Newsreader, serif;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.paragraph-right-container{
+    max-width: 559px;
+    max-height: 391px;
+}
+
+.paragraph-right-container span{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Newsreader, serif;
+    line-height: 21px;
+}
+#first-paragraph{
+    margin-bottom: 41px;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    color: grey;
+    text-align: start;
+    line-height: 24px;
+}
+#second-paragraph{
+    margin-bottom: 21px;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    color: grey;
+    text-align: start;
+    line-height: 24px;
+}
+.featured-container{
+    padding-top: 300px;
+    /* padding-top: 100px; */
+    padding-bottom: 100px;
+    margin: 0 190.4px;
+}
+#feature{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.tag--{
+    margin: 0px 190.4px;
+    margin-bottom: -200px;
+}
+
+/* Achievement part */
+.achievement-section{
+    margin: 0 190.4px;
+    position: relative;
+}
+
+.achievement-section-inner-container{
+    margin-top: -100px;
+    padding: 50px;
+    max-width: 570px;
+    min-height: 410px; 
+    margin-left: 190.4px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.award-winner-section-heading{
+    margin-bottom: 20px;
+    font-family: Newsreader, serif;
+    color: black;
+}
+.award-winner-section-heading h2{
+    margin: 0;
+    font-size: 38px;
+    line-height: 49px;
+    text-align: start;
+}
+.award-winner-section-paragraph{
+    margin-bottom: 20.8px;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    overflow-wrap: break-word;
+    line-height: 24px;
+}
+.award-winner-section-paragraph p{
+    text-align: start;
+}
+   
+.second-inner-container {
+  background-image: url("https://websitedemos.net/food-drinks-blog-04/wp-content/uploads/sites/896/2021/07/about-003.jpg");
+  background-position:center;
+  background-size:cover ;
+  background-repeat:no-repeat;
+  position: relative;
+  min-height: 1039px;
+  margin-top: -310px;
+  z-index: 0;
+  display: flex;
+}
+
+.second-inner-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #fbf9f7 0%, rgba(0,0,0,0.6) 100%);
+  z-index: 0;
+}
+
+/* Responsiveness */
+@media (max-width: 1280px){
+    .about-me-{
+        margin: 0;
+        margin: 0 30px;
+    }
+    .about-me- h1{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .about-me- span{
+        font-size: 12px;
+    }
+    .about-me-container{
+        height: 620px;
+    }
+    .achievement-section{
+        margin-top: -100px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .achievement-section-inner-container{
+        padding: 35px;
+        align-self: flex-start;
+        margin: 0;
+        margin-left: 30px;
+        width: 428px;
+    }
+
+    .about-me-paragraphs-flex-container{
+        margin:0 30px;
+        margin-top: 10px;
+        padding-top: 50px;
+        padding-bottom: 150px; 
+    }
+    .paragraph-right-container{
+        width: 100%;
+    }
+    .featured-container{
+        margin: 0 40px;
+    }
+    .tag--{
+        width: 100%;
+        margin: 0;
+        margin-bottom: -225px;
+        padding: 0  30px;
+    }
+    .tag-container{
+        height: 338.98px;
+    }
+    #main-heading h1{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    #main-heading{
+        min-height: 42px;
+    }
+    .email-button input[type="email"]{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px){
+       .about-me-{
+        margin: 0 65.3px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .about-me- span{
+        font-size: 11.867px;
+        display: block;
+        text-align: center;
+    }
+    .about-me- h1{
+        font-size: 30px;
+    }
+    .about-me-paragraphs-flex-container{
+        flex-direction: column;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 0;
+        text-align: center;
+    }
+    .paragraph-left-container{
+        padding: 0;
+        max-width: 100%;
+    }
+    .paragraph-right-container{
+        max-width: 100%;
+    }
+    #first-paragraph,
+    #second-paragraph{
+        display: block;
+        text-align: center;
+    }
+    .achievement-section-inner-container{
+        max-width: 100%;
+    }
+}
