@@ -42,7 +42,7 @@
 import {mapGetters} from 'vuex'
 
 export default{
-    computed:{
+    computed: {
         ...mapGetters,
         allFoodPosts(){
            return this.$store.getters.allFoodPosts;
