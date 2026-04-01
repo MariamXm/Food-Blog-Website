@@ -1,24 +1,33 @@
-# food-blog-website
+# Food & Drinks Blog Website
+A responsive food blog website for discovering and sharing recipes.
 
-## Project setup
-```
+## Features
+- Browse different foods and drinks
+- Comment under you favourite posts
+- Responsive design for all devices
+
+## Tech Stack
+- Frontend: Vue.js, Tailwind CSS
+- Database: localStorage
+- Deployment: Vercel
+
+## Quick Start
+
+```bash
+# Clone repository
+git clone https://github.com/MariamXm/Food-Blog-Website.git
+
+# Install frontend dependencies
 npm install
+
+# Run app
+cd server
+npm run dev
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Live Demo
+[View Live Project](https://food-blog-website-hvm5-48lqovzne-mxms-projects-6f064bf4.vercel.app/)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Author
+Mariam Mahmood – [GitHub](https://github.com/MariamXm)
